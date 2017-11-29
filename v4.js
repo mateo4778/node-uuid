@@ -1,4 +1,4 @@
-var rng = require('./lib/rng');
+var rng = require('./lib/rng-browser');
 var bytesToUuid = require('./lib/bytesToUuid');
 
 function v4(options, buf, offset) {

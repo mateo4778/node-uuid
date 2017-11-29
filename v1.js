@@ -1,4 +1,4 @@
-var rng = require('./lib/rng');
+var rng = require('./lib/rng-browser');
 var bytesToUuid = require('./lib/bytesToUuid');
 
 // **`v1()` - Generate time-based UUID**
